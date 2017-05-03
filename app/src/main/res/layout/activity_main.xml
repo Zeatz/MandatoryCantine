@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicolai.mandatorycantine.MainActivityForside">
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:id="@+id/AddUser"
+        android:onClick="onClickAddUser"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="79dp" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:id="@+id/Menu"
+        android:onClick="onClickMenu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="31dp" />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+        android:id="@+id/Rate"
+        android:onClick="onClickRate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="127dp" />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="TakeAway"
+        android:id="@+id/TakeAway"
+        android:onClick="onClickTakeAway"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="175dp" />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="PointsMenu"
+        android:id="@+id/PointsMenu"
+        android:onClick="onClickPointsMenu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="223dp" />
+</android.support.constraint.ConstraintLayout>
+

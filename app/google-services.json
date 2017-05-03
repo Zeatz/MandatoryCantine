@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1095072223036",
+    "firebase_url": "https://mandatorycantine-711ee.firebaseio.com",
+    "project_id": "mandatorycantine-711ee",
+    "storage_bucket": "mandatorycantine-711ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095072223036:android:1f09e34d663a80bf",
+        "android_client_info": {
+          "package_name": "com.example.nicolai.mandatorycantine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095072223036-qg4jgqviudince4quc3hsj5l44c1p54m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nicolai.mandatorycantine",
+            "certificate_hash": "8949c28adf7b819a559692b2da3182e5288433bc"
+          }
+        },
+        {
+          "client_id": "1095072223036-j6ao15g7or14hca7oa9kk828fb0jleq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdIDp4gZaVtdlOh1Ri3bTvU3yt0bxcGNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095072223036-j6ao15g7or14hca7oa9kk828fb0jleq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
